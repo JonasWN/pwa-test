@@ -1,0 +1,60 @@
+@import url("base/standard.css");
+@import url("base/varibles.css");
+@import url("css.modules/response-item-grid-module.css");
+
+body {
+    overflow: hidden;
+}
+
+.Title__h1 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.Title__h1 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.install {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    background: burlywood;
+    padding: 20px;
+}
+
+.hidden {
+    display:  none;
+}
+
+.install-title {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.not-right-now-button {
+    background: none;
+    border: none;
+    color: grey;
+}
+
+.not-right-now-button:hover {
+    cursor: pointer;
+}
+
+.install-button {
+    background: #1dcd1d;
+    color: white;
+    width: 50%;
+    height: 40px; 
+    margin-left: 30px;
+    border: none;
+}
+
+.install-button:hover {
+    cursor: pointer;
+}

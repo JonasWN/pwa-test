@@ -1,0 +1,60 @@
+.streamer__thumb {
+    width: 100%;
+    height: auto;
+}
+
+.streamer__container {
+    width: 400px;
+    /* animation: slideFromTop 1s ease-in-out; */
+}
+
+.mainContainer {
+    max-width: 1400px;
+    margin: 5% auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+    grid-gap: 50px 30px;
+    grid-template-rows: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.streamer__text {
+    font-size: 1.5em;
+    color: #fff;
+    /* animation: slideFromTop 2s ease-in-out; */
+}
+
+.streamer__title {
+    color: rgb(241, 197, 100);
+}
+
+.bold {
+    font-weight: 700;
+    color: #597ed4;
+}
+
+.Title__h1 {
+    text-align: center;
+    margin-top: 5%;
+
+    font-size: 2.5em;
+    color: #597ed4;
+}
+
+.body {
+    background-color: rgb(9, 15, 32);
+}
+
+@keyframes slideFromTop {
+    0% {
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

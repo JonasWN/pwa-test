@@ -1,0 +1,21 @@
+{
+    "short_name": "Ecommerce-next",
+    "name": "E-commerce-next",
+    "description": "E-commerce site",
+    "icons": [
+      {
+        "src": "/marioios.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/mario.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/"
+}  
